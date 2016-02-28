@@ -1,0 +1,161 @@
+body {
+	background-color: #454a51;
+	background-image:url(../art/bg.png);
+	font-family: 'PTSansRegular', Arial, sans-serif;
+}
+
+.blue {
+	color:#3d5b6c;
+}
+
+.black{
+	color:#000000;
+}
+
+.brand {
+	font-family:'OstrichSansMedium', Arial, sans-serif;
+	font-size:48px !important;
+	color:#3d5b6c !important;
+	letter-spacing: 3px;
+}
+
+.brand strong {
+	font-family:'OstrichSansBlack', Arial, sans-serif;
+	font-size:44px !important;
+	color:#202d35 !important;
+}
+
+.navbar {
+	border-top: 3px solid #3d5b6c;
+	background-color:rgba(200,200,200,0.75);
+	-webkit-box-shadow: inset -2px -2px 0 rgba(255, 255, 255, 0.25);
+	-moz-box-shadow: inset -2px -2px 0 rgba(255, 255, 255, 0.25);
+	box-shadow: inset -2px -2px 0 rgba(255, 255, 255, 0.25);
+}
+
+.navbar .nav > li > a {
+	font-family:'PTSansRegular', Arial, sans-serif;
+	font-size:14px !important;
+	font-weight:normal !important;
+}
+
+.navbar .nav > li > a > img {
+	vertical-align:-7px;
+}
+
+.stage{
+	border-left: 18px solid #dedede;
+	border-right: 18px solid #dedede;
+	border-bottom: 18px solid #dedede;
+	background-color: #ededed;
+	padding: 106px 30px 20px 30px;
+}
+
+.intro{
+	font-size:54px;
+	line-height:64px;
+	color:#666666;
+	font-family: 'OstrichSansMedium', Arial, sans-serif;
+}
+
+.spaced{
+	margin-bottom: 20px;
+}
+
+.caption{
+	font-family: 'PTSansNarrowRegular', Arial, sans-serif;
+}
+
+.caption h4 {
+	color:#3d5b6c;
+}
+
+.caption p {
+	color:#666666;
+}
+
+.footer{
+	font-size: 14px;
+	padding:20px 0 42px 0;
+	text-align: center;
+	color:#dddddd;
+}
+
+.fancybox-nav span {
+	visibility:visible !important;
+}
+
+/*
+.thumbnail img{
+	-webkit-filter: grayscale(100%);  
+}
+
+.thumbnail img:hover{
+	-webkit-filter: grayscale(0%);  
+}
+*/
+
+@media (min-width: 1200px) {
+	.intro{
+		font-size:64px;
+		line-height:74px;
+	}
+}
+
+
+@media (max-width: 979px) {
+	.stage{
+		padding: 90px 30px 20px 30px;
+	}
+	.intro{
+		font-size:38px;
+		line-height:46px;
+	}
+}
+
+@media (max-width: 767px) {
+	.intro{
+		font-size:32px;
+		line-height:36px;
+	}
+	.stage{
+		padding: 10px 20px 20px 20px;
+		border-left: none;
+		border-right: none;
+	}
+	.thumbnail {
+		margin-bottom:12px;
+		border:none;
+	}
+	hr {
+		margin: 12px 0;
+	}
+	body{
+		background-color: #dedede;
+		background-image: none;
+	}
+	.footer{
+		padding:5px 0 25px 0;
+		color:#000000;
+	}
+	.spaced{
+		margin-bottom: 0;
+	}
+}
+
+@media (max-width: 480px) { 
+	.brand {
+		font-size:34px !important;
+		letter-spacing: 2px;
+		margin-top:6px !important;
+	}
+	.brand strong{
+		font-size:32px !important;
+		letter-spacing: 2px;
+		margin-top:6px !important;
+	}
+	.intro{
+		font-size:20px;
+		line-height:26px;
+	}
+}
